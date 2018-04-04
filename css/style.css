@@ -12,8 +12,14 @@ nav {
     z-index: 999;
 }
 
+.dropdown-content li>a,
+.dropdown-content li>span {
+    font-size: 16px;
+    color: #48bbed;
+}
+
 .button-collapse {
-    color: #4db6ac;
+    color: #48bbed;
 }
 
 .parallax-container {
@@ -29,6 +35,10 @@ nav {
 
 .parallax-container .section {
     width: 100%;
+}
+
+.teal-text.text-lighten-2 {
+    color: #48bbed !important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -62,4 +72,8 @@ txtComeco2 {
 
 footer.page-footer {
     margin: 0;
+}
+
+.teal {
+    background-color: #4c99bb !important;
 }

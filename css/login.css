@@ -7,6 +7,16 @@ nav .brand-logo {
     color: #444;
 }
 
+.dropdown-content li>a,
+.dropdown-content li>span {
+    font-size: 16px;
+    color: #48bbed;
+}
+
+.button-collapse {
+    color: #48bbed;
+}
+
 #cadastro {
     background-color: rgba(153, 153, 153, 0.411);
 }
@@ -78,6 +88,18 @@ label {
 #btn-cadastrar .btn {
     border-radius: 5px;
     width: 100%;
+}
+
+.btn,
+.btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #48bbed;
+}
+
+.btn:hover,
+.btn-large:hover {
+    background-color: #1894c1;
 }
 
 #voltar {

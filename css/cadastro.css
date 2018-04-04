@@ -7,45 +7,28 @@ p {
     line-height: 2rem;
 }
 
+.dropdown-content li>a,
+.dropdown-content li>span {
+    font-size: 16px;
+    color: #48bbed;
+}
+
 .button-collapse {
-    color: #26a69a;
+    color: #48bbed;
 }
 
 #cadastro {
     background-color: #44444445;
 }
 
-.parallax-container {
-    min-height: 550px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, .9);
-}
-
-.parallax-container .section {
-    width: 100%;
+.teal-text.text-lighten-2 {
+    color: #48bbed !important;
 }
 
 #botao {
     padding: 9px;
     position: relative;
     top: 29px;
-}
-
-@media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 0;
-    }
 }
 
 #txtComeco,
@@ -65,4 +48,8 @@ footer.page-footer {
     margin: 0;
     position: relative;
     top: 106px;
+}
+
+.teal {
+    background-color: #4c99bb !important;
 }

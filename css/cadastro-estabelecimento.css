@@ -4,6 +4,16 @@ body {
     height: 100%;
 }
 
+.dropdown-content li>a,
+.dropdown-content li>span {
+    font-size: 16px;
+    color: #48bbed;
+}
+
+.button-collapse {
+    color: #48bbed;
+}
+
 .row {
     margin: 0;
 }

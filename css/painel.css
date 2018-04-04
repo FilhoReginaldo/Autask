@@ -8,6 +8,14 @@ body {
     font-size: 45px;
 }
 
+.imgLogo {
+    border: 0;
+    position: absolute;
+    width: 4%;
+    right: 101%;
+    bottom: 23%;
+}
+
 .side-nav .user-view,
 .side-nav .userView {
     position: relative;
