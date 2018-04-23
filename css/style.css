@@ -41,6 +41,11 @@
         color: #fff !important;
     }
     
+    .material-icons {
+        color: #154468;
+        ;
+    }
+    
     div#adquirirServico.section {
         padding-top: 3rem;
         padding-bottom: 8rem;
