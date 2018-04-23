@@ -60,7 +60,7 @@
                 <input id="password" type="password" class="validate" placeholder="Senha">
             </div>
             <div id="btn-cadastrar">
-                <button type="button" class="btn"><a href="painel.html">Cadastre-se</a></button><br>
+                <button type="button" class="btn"><a href= javascript:teste1(); >Cadastre-se</a></button><br>
             </div>
             <a id="voltar" class="center-align" href="javascript:window.history.go(-1)">Voltar</a>
         </form>
@@ -74,5 +74,10 @@
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
 
+<script>
+    function teste1() {
+        window.open('painel.html', '_blank');
+    }
+</script>
 
 </html>
