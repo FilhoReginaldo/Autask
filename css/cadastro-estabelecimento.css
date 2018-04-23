@@ -38,6 +38,16 @@ body {
     border-bottom: none;
 }
 
+.row .col.s9 {
+    width: 25%;
+    height: 742px;
+}
+
+.row .col.s9 {
+    width: 75%;
+    height: 742px;
+}
+
 .botao {
     color: rgba(0, 0, 0, 0.87);
     display: block;
@@ -96,7 +106,7 @@ h5 {
     color: #f19100 !important;
     top: 3%;
     position: relative;
-    font-size: 286%;
+    font-size: 245%;
 }
 
 form {
